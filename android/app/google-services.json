@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "212070888796",
+    "project_id": "listar-bc5b1",
+    "storage_bucket": "listar-bc5b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212070888796:android:65db45794eb8be46d43d99",
+        "android_client_info": {
+          "package_name": "com.example.p1_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212070888796-opplutcm5fnpo7sqcn2spgtso6rp6lql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6uQAlKFNmqh2VGCtKIrc4y8vSC0Bsshs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212070888796-opplutcm5fnpo7sqcn2spgtso6rp6lql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
