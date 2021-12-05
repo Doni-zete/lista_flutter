@@ -59,9 +59,19 @@ class _AdiconarListaState extends State<AdiconarLista> {
         backgroundColor: Colors.blue[400],
         automaticallyImplyLeading: false,
         actions: [
+           IconButton(
+            icon: const Icon(Icons.logout),
+            onPressed: () async {
+              FirebaseAuth.instance.signOut();
+              Navigator.pushReplacementNamed(context, '/inicial');
+            },
+          )
         
         ],
+
+        
       ),
+      
 
       //
       // EXIBIR OS DOCUMENTOS DA COLEÇÃO DE Listas
