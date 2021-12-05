@@ -35,7 +35,7 @@ class _AdiconarListaState extends State<AdiconarLista> {
 
       
       title: Text(nome, style: const TextStyle(fontSize: 30)),
-      subtitle: Text('R\$ $preco', style: const TextStyle(fontSize: 25)),
+      subtitle: Text(preco, style: const TextStyle(fontSize: 25)),
       trailing: IconButton(
           icon: const Icon(Icons.delete),
           onPressed: () {
